@@ -15,7 +15,7 @@
 
 Summary: Distributed memory object caching system
 Name: memcached
-Version: 1.4.14
+Version: 1.4.22
 Release: 1%{?dist}
 License: BSD
 Group: System Environment/Daemons
@@ -107,6 +107,9 @@ fi
 %{_includedir}/memcached
 
 %changelog
+* Tue Apr 14 2015 Brandon Ooi <brandono@gmail.com> - 1.4.22-1
+- Updated to 1.4.22.
+
 * Wed Aug 22 2012 Steve Huff <shuff@vecna.org> - 1.4.14-1
 - Updated to 1.4.14.
 - Replace custom SysV init script with stock.
